@@ -1,6 +1,7 @@
 # Curriculum Vitae
 ## Daria Maksimova
-*dmaksimova2016#gmail.com*\
+![Фото](/images/photo.jpg)
+*dmaksimova2016#gmail.com* \
 *+905317006290*
 ## Jr Frontend Developer
 About me:
@@ -9,6 +10,5 @@ About me:
 * always keen to learn
 * able to meet deadlines
 * creative thinking
-* communicable, easy to talk to\
+* communicable, easy to talk to \
 *English - C1 (have a language degree)*
-
