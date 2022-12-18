@@ -6,15 +6,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #292727;
   }
   html {
     scroll-behavior: smooth; 
   }
   h2 { 
     padding-left: 20px;
+    text-align: center;
   }
   p { 
     padding-left: 10px;
+  }
+  code {
+    padding-left: 20px;
   }
   @media (max-width: 768px) {
     .section {
@@ -25,7 +33,9 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-
+  ul { 
+    list-style-type: none; 
+  }
   .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -33,17 +43,39 @@
   .section {
     width: 50%;
   }
+  .section-name {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #343534;
+  }
+  .section-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #757976;
+  }
+  .link {
+    text-decoration: none;
+    color: #383a38;
+    transition: color 0.5s;
+  }
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-
   }
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #383a38;
+    transition: color 0.5s;  
   }
   .section {
     width: 50%;
@@ -58,12 +90,21 @@
   }
   .round {
     border-radius: 100px; 
-    border: 3px solid rgb(206, 125, 33); 
-    box-shadow: 0 0 7px rgb(206, 125, 33); 
+    float: left; 
+    padding-right: 10px;
+    padding-bottom: 10px;
    }
   .logo {
     float: right;
     }
   .footer-link {
     float: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #383a38;
+    transition: color 0.5s;  
+    }
+  .line {
+    border-bottom: 1px solid rgb(53, 51, 51);
+    margin: 20px;
     }
